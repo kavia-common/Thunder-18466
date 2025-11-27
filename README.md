@@ -1,5 +1,17 @@
 # Thunder
 
+## Start Command
+
+This repository includes a start script to consistently launch the backend service.
+
+- Start locally:
+  bash ./start.sh
+
+- Procfile:
+  A `Procfile` is included for environments that expect an explicit process definition.
+
+Refer to STARTUP.md for more details.
+
 A C++ platform abstraction layer for generic functionality.
 
 ### Thunder dependencies
