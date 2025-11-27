@@ -13,6 +13,11 @@ This container uses `start.sh` as the canonical entrypoint for starting the back
   The provided `Procfile` contains:
   web: bash ./start.sh
 
+- With Node/package.json-based runners:
+  A minimal `package.json` is provided with:
+    scripts.start = "bash ./start.sh"
+  This is only for detection convenience and does not change runtime behavior.
+
 ## Environment Variables
 
 - BUILD_DIR (optional): Directory for out-of-source builds. Default: build

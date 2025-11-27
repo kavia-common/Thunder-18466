@@ -1,0 +1,10 @@
+{
+  "name": "thunder-18466",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Minimal start script wrapper to enable preview system detection; delegates to bash ./start.sh",
+  "scripts": {
+    "start": "bash ./start.sh"
+  },
+  "license": "SEE LICENSE IN LICENSE"
+}
